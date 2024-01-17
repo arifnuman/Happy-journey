@@ -4,13 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
 
-:root{
-    --primary-head-color:#131318;
+:root {
+    --primary-head-color: #131318;
     --primary-para-color: rgba(19, 19, 24, 0.70K);
-    --primary-btn-color:#FF5400;
-    --primary-font-size:2.5rem;
-    --secondery-font-size:1rem;
-}   
+    --primary-btn-color: #FF5400;
+    --primary-font-size: 2.5rem;
+    --secondery-font-size: 1rem;
+}
 
 
 * {
@@ -21,7 +21,8 @@
 body {
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -35,7 +36,7 @@ a{
     line-height: 26px;
 }
 
-button{
+button {
     border: none;
 }
 
@@ -45,7 +46,7 @@ button{
     color: #131318;
 
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 
 }
@@ -69,29 +70,34 @@ button{
 /* header section css */
 
 
- 
-header{
+
+header {
     width: 81%;
-  
+
     margin: 53px auto;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     justify-content: space-between;
 }
-.nav-head{
+
+.nav-head {
     margin-left: 10px;
     font-size: var(--primary-font-size);
     color: var(--primary-head-color);
 }
-.travul{
-    color:var(--primary-btn-color)
+
+.travul {
+    color: var(--primary-btn-color)
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.nav-ul{
+
+.nav-ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,35 +106,40 @@ header{
     font-weight: 400;
     flex-wrap: wrap;
 }
-.nav-ul li{
+
+.nav-ul li {
     margin-right: 44px;
     list-style: none;
 }
-.nav-ul li:hover{
-    color:var(--primary-btn-color);
+
+.nav-ul li:hover {
+    color: var(--primary-btn-color);
     cursor: pointer;
 }
-.banner-container{
-   
-    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 13\ \(1\)\ \(1\).png');
+
+.banner-container {
+
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #13131835;
     height: 400px;
-    margin:46px auto;
+    margin: 46px auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     border-radius: 1rem;
 }
-.banner-content h3   {
+
+.banner-content h3 {
     color: #FFF;
-font-size: 64px;
-font-weight: 800;
+    font-size: 64px;
+    font-weight: 800;
 }
-.banner-content p   {
-    
+
+.banner-content p {
+
     color: #FFF;
     padding: 10px 200px;
 }
@@ -144,8 +155,8 @@ font-weight: 800;
 
 .Header_main_from {
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 5px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -163,7 +174,8 @@ padding: 5px 10px;
     border-radius: 8px;
     background: rgb(255 255 255);
 }
-form select  {
+
+form select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -173,46 +185,49 @@ form select  {
     border-radius: 8px;
     background: rgb(255 255 255);
 }
-form button{
+
+form button {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 10px 25px;
-    
+
 }
 
 
 /* header section css */
 
 
-.tours{
+.tours {
     display: flex;
     gap: 50px;
     margin: 100px 0;
     justify-content: center;
     align-items: center;
 }
-.tours_content  {
+
+.tours_content {
     text-align: justify;
 }
 
-.tours_content h2{
+.tours_content h2 {
     margin-bottom: 20px;
 }
 
-.tours_content li{
+.tours_content li {
     padding: 10px;
 }
-.tours_content button{
+
+.tours_content button {
     padding: 14px 35px;
     margin: 20px 0;
 }
 
-.tour_image img{
+.tour_image img {
 
     margin: 20px;
-   
+
     /* width: 100%;
     height: 540px; */
 }
@@ -233,7 +248,8 @@ main {
 .destination {
     text-align: center;
 }
-.destination_content{
+
+.destination_content {
     margin: 50px 0;
 }
 
@@ -284,7 +300,7 @@ main {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  height: 300px;  
+    height: 300px;
 
 }
 
@@ -295,7 +311,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 
-height: 300px;
+    height: 300px;
 }
 
 .america {
@@ -306,7 +322,8 @@ height: 300px;
     background-size: cover;
     height: 300px;
 }
-.Kashmir{
+
+.Kashmir {
     grid-area: Kashmir;
     background-image: url(images/Kashmir.png);
     background-position: center center;
@@ -321,7 +338,7 @@ height: 300px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-height: 300px;
+    height: 300px;
 }
 
 .Bandarban {
@@ -330,20 +347,20 @@ height: 300px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-height: 300px;
+    height: 300px;
 }
 
 
-.destination_img{
+.destination_img {
     display: grid;
     gap: 20px;
-    grid-template-areas: 
-    "Maldives Maldives Maldives Maldives Indonesia Indonesia  Indonesia Indonesia  "
-    "Srilanka Srilanka america  america america  america   america    Kashmir "
-    "Bangladesh Bangladesh  Bangladesh  Bandarban Bandarban Bandarban Bandarban Bandarban"
-    
-    
-    
+    grid-template-areas:
+        "Maldives Maldives Maldives Maldives Indonesia Indonesia  Indonesia Indonesia  "
+        "Srilanka Srilanka america  america america  america   america    Kashmir "
+        "Bangladesh Bangladesh  Bangladesh  Bandarban Bandarban Bandarban Bandarban Bandarban"
+
+
+
     ;
 }
 
@@ -407,6 +424,152 @@ height: 300px;
     font-weight: 800;
     margin: 15px 0;
 }
+
+.card_center {
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    height: auto;
+    padding: 30px;
+    place-self: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.card_center img {
+    width: 64px;
+}
+
+
+/* discount discount discount */
+
+.discount {
+    margin: 100px;
+}
+
+.discount .discount_contant {
+    text-align: center;
+
+}
+
+.booking_section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.13) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #13131835;
+  
+    margin: 46px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 50px;
+    align-items: end;
+}
+
+.section_left{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.13) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 39.png');
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 50px;
+    align-items: start;
+}
+
+.section_right_3{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.13) 0%, rgba(19, 19, 24, 0.00) 100%), url('/images/Group\ 40.png');
+
+}
+
+
+
+.booking_card {
+    width: 450px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+}
+.time{
+    margin: 20px 0;
+}
+
+.time ul { 
+ display: flex;
+ padding: 0;
+ 
+}
+.time ul li{
+    
+ list-style: none;
+    margin-right: 20px;
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.time ul li i{
+    color: #FF5400;
+}
+
+.booking_card h4{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.booking_card .price{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 30px;
+}
+
+.booking_card button{
+    padding: 10px 30px;
+}
+
+/* video clips  */
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.video>.video_content>.btn_primary {
+    margin: 30px 0;
+    padding: 10px 30px;
+}
+
+.video_item {
+    flex: 1 0 0;
+}
+
+.video_clips video {
+    border-radius: 16px;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -575,6 +738,13 @@ footer {
 @media screen and (max-width:600px) {
 
 
+    /* share design  */
+
+    .content_title {
+        font-size: 1.24rem;
+
+    }
+
 
     .logo {
         display: flex;
@@ -583,25 +753,37 @@ footer {
     }
 
 
-    .nav-ul li{
+    .nav-ul li {
         margin-right: 10px;
         list-style: none;
     }
-    .banner-container{
+
+    .banner-container {
         height: auto;
+        padding: 10px;
     }
 
-    
-    .banner-content h3   {
-        font-size: 2rem;
-        }
 
-    .banner-content p   {
-    
+    .banner-content h3 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+
         color: #FFF;
         padding: 10px 20px;
     }
 
+
+    .booking_section{
+        margin: 20px ;
+        align-items: center;
+    }
+
+
+    .booking_card {
+        width: auto;
+    }
 
 
 
@@ -609,35 +791,42 @@ footer {
 
     /* destination_img */
 
-    .destination_img{
+    .destination_img {
 
-        grid-template-areas: 
-        "Maldives"
-        "Indonesia"
-        "Srilanka"
-        "america"
-        "Kashmir"
-        "Bangladesh"
-        "Bandarban"
+        grid-template-areas:
+            "Maldives"
+            "Indonesia"
+            "Srilanka"
+            "america"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban"
         ;
     }
 
 
-    .tour_image img{
-    
+    .tour_image img {
+
         width: 100%;
-    
+
     }
 
+
+
+    .chooseContent {
+        text-align: center;
+        padding: 10px 7px;
+    }
 
 
     .chooseCard {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
-    
-    
+
+
     }
+
     /* newsletter */
 
     .newsletter,
@@ -645,7 +834,8 @@ footer {
     .tours,
     .nav-bar,
     .header_from,
-    .Header_main_from {
+    .Header_main_from,
+    .video {
         flex-direction: column;
 
     }
@@ -711,22 +901,24 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    .banner-content h3   {
-    font-size: 4rem;
+
+    .banner-content h3 {
+        font-size: 4rem;
     }
-    .banner-content p   {
-    
+
+    .banner-content p {
+
         color: #FFF;
         padding: 10px 50px;
     }
-    
-        .tours,
-        .nav-bar {
-                flex-direction: column;
-        
-            }
-    
-    .tour_image img{
+
+    .tours,
+    .nav-bar {
+        flex-direction: column;
+
+    }
+
+    .tour_image img {
         height: 540px;
     }
 
